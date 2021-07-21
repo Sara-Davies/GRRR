@@ -30,7 +30,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.59210711717605591" green="0.91259169578552246" blue="0.52851700782775879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -107,16 +107,16 @@
                                 <rect key="frame" x="249" y="313" width="197" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tire" translatesAutoresizingMaskIntoConstraints="NO" id="x5X-K1-djT">
-                                <rect key="frame" x="243" y="607" width="208" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Diaper" translatesAutoresizingMaskIntoConstraints="NO" id="c8S-Et-eLs">
                                 <rect key="frame" x="-23" y="734" width="231" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="220-2207619_wooden-image-wooden-hanger-png-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="npo-ly-N5L">
                                 <rect key="frame" x="127" y="734" width="202" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tire" translatesAutoresizingMaskIntoConstraints="NO" id="x5X-K1-djT">
+                                <rect key="frame" x="238" y="596" width="208" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -135,14 +135,52 @@
                     <view key="view" contentMode="scaleToFill" id="XHu-go-dJy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DiK-Gd-pYJ">
+                                <rect key="frame" x="14" y="109" width="386" height="338.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71145284175872803" green="0.92629605531692505" blue="0.66861361265182495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">-plastic bags                                                                      usually end up not recycled because of how difficult they are to sort and can potentially jam the machines while sorting and etc,                                                                   Instead use reusable bags or paper bags.
+
+-plastic one use bottles:                                                         are harmful to the environment and 80% end up in landfills and  the chemicals that are leaked by them.                                                                            Instead: use metal, glass, etc reusable bottles
+
+-plastic straws:                                                                        are also ended up not being recycled due to how small they are which causes them to end up in landfills,                                                                                          Instead: use metal, bamboo, glass, ect. Help save the turtles!!
+
+</mutableString>
+                                <color key="textColor" red="0.4240070312" green="0.5" blue="0.42869500710000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hq720" translatesAutoresizingMaskIntoConstraints="NO" id="wda-CE-GzF">
+                                <rect key="frame" x="87" y="447" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g7Y-gU-vtf">
+                                <rect key="frame" x="17" y="583" width="381" height="384"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71145284175872803" green="0.92629605531692505" blue="0.66861361265182495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Buy products with less packaging.
+
+Look for markets/stores with options to refill your own containers, bags, etc. 
+
+Reuse, opt for anything that is reusable rather than disposable and one time use, (ex; cloths/towels instead of paper towels).
+
+Invest in high quality items that you can use for years and not have to replace, (ex; furniture, clothes, etc).
+
+Don’t buy things you really don’t need, consuming less means there will be less waste.</string>
+                                <color key="textColor" red="0.4240070312" green="0.5" blue="0.42869500710000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bUG-P1-BHq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.71145284175872803" green="0.92629605531692505" blue="0.66861361265182495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="BcC-Xe-SXc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Uq-hX-KPP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="606" y="118"/>
+            <point key="canvasLocation" x="605.79710144927537" y="117.85714285714285"/>
         </scene>
         <!--Fourth View Controller-->
         <scene sceneID="xL0-vk-Oki">
@@ -190,6 +228,7 @@
         <image name="Image-8" width="460" height="460"/>
         <image name="Image-9" width="1600" height="1571"/>
         <image name="Tire" width="313" height="346"/>
+        <image name="hq720" width="720" height="404"/>
         <image name="png-clipart-head-shoulders-shampoo-dandruff-lotion-hair-shampoo-miscellaneous-cosmetics-removebg-preview" width="471" height="529"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
