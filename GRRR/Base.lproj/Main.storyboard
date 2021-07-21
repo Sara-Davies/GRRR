@@ -24,7 +24,7 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyL-Kf-Juh">
-                                <rect key="frame" x="155" y="277" width="105" height="30"/>
+                                <rect key="frame" x="155" y="272" width="105" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="This is a button"/>
                             </button>
@@ -46,45 +46,77 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Friendly Recycling Guide" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7O-b0-0cg">
-                                <rect key="frame" x="-7" y="57" width="429" height="46"/>
+                                <rect key="frame" x="-6" y="42" width="429" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="28"/>
                                 <color key="textColor" red="0.35151640579999999" green="0.42957452330000001" blue="0.33177766829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click on each item down below to see if it can be recycled or not!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fY0-P7-rww">
-                                <rect key="frame" x="57" y="90" width="301" height="99"/>
+                                <rect key="frame" x="58" y="75" width="301" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
+                                <color key="textColor" red="0.31601029210372467" green="0.26328296420821529" blue="0.14696990721258865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="kkA-UZ-r9K">
-                                <rect key="frame" x="-92" y="164" width="290" height="139"/>
+                                <rect key="frame" x="-91" y="149" width="290" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="z6h-nL-Cgh">
-                                <rect key="frame" x="59" y="173" width="271" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="Mu6-FU-3fV">
-                                <rect key="frame" x="234" y="178" width="231" height="128"/>
+                                <rect key="frame" x="60" y="158" width="271" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-3" translatesAutoresizingMaskIntoConstraints="NO" id="GJy-1Y-krb">
-                                <rect key="frame" x="260" y="341" width="179" height="108"/>
+                                <rect key="frame" x="133" y="607" width="196" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-4" translatesAutoresizingMaskIntoConstraints="NO" id="uNy-zJ-f6i">
-                                <rect key="frame" x="-62" y="293" width="298" height="204"/>
+                                <rect key="frame" x="-57" y="268" width="298" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-6" translatesAutoresizingMaskIntoConstraints="NO" id="7Ma-Pw-xjf">
-                                <rect key="frame" x="-67" y="485" width="240" height="128"/>
+                                <rect key="frame" x="-66" y="456" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-5" translatesAutoresizingMaskIntoConstraints="NO" id="T7z-Gg-Xb5">
-                                <rect key="frame" x="84" y="495" width="220" height="118"/>
+                                <rect key="frame" x="85" y="466" width="220" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hose" translatesAutoresizingMaskIntoConstraints="NO" id="ANR-Kj-u4k">
+                                <rect key="frame" x="21" y="630" width="153" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-8" translatesAutoresizingMaskIntoConstraints="NO" id="S4M-Kf-d10">
+                                <rect key="frame" x="249" y="742" width="208" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png-clipart-head-shoulders-shampoo-dandruff-lotion-hair-shampoo-miscellaneous-cosmetics-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="udJ-sQ-cZC">
+                                <rect key="frame" x="213" y="444" width="268" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-7" translatesAutoresizingMaskIntoConstraints="NO" id="SOB-jO-WrS">
+                                <rect key="frame" x="111" y="304" width="240" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="Mu6-FU-3fV">
+                                <rect key="frame" x="230" y="160" width="240" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-9" translatesAutoresizingMaskIntoConstraints="NO" id="tmI-qz-SXI">
+                                <rect key="frame" x="249" y="313" width="197" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tire" translatesAutoresizingMaskIntoConstraints="NO" id="x5X-K1-djT">
+                                <rect key="frame" x="243" y="607" width="208" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Diaper" translatesAutoresizingMaskIntoConstraints="NO" id="c8S-Et-eLs">
+                                <rect key="frame" x="-23" y="734" width="231" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="220-2207619_wooden-image-wooden-hanger-png-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="npo-ly-N5L">
+                                <rect key="frame" x="127" y="734" width="202" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -106,6 +138,7 @@
                         <viewLayoutGuide key="safeArea" id="bUG-P1-BHq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="BcC-Xe-SXc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Uq-hX-KPP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -143,6 +176,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="220-2207619_wooden-image-wooden-hanger-png-removebg-preview" width="653" height="382"/>
+        <image name="Diaper" width="500" height="500"/>
+        <image name="Hose" width="590" height="343"/>
         <image name="Image" width="2300" height="1650"/>
         <image name="Image-1" width="979" height="1024"/>
         <image name="Image-2" width="1500" height="1493"/>
@@ -150,6 +186,11 @@
         <image name="Image-4" width="270" height="270"/>
         <image name="Image-5" width="330" height="183"/>
         <image name="Image-6" width="142" height="512"/>
+        <image name="Image-7" width="150" height="279"/>
+        <image name="Image-8" width="460" height="460"/>
+        <image name="Image-9" width="1600" height="1571"/>
+        <image name="Tire" width="313" height="346"/>
+        <image name="png-clipart-head-shoulders-shampoo-dandruff-lotion-hair-shampoo-miscellaneous-cosmetics-removebg-preview" width="471" height="529"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
