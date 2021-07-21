@@ -107,7 +107,7 @@
                                 <rect key="frame" x="249" y="313" width="197" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Diaper" translatesAutoresizingMaskIntoConstraints="NO" id="c8S-Et-eLs">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Diaper 1.30.54 PM" translatesAutoresizingMaskIntoConstraints="NO" id="c8S-Et-eLs">
                                 <rect key="frame" x="-23" y="734" width="231" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -140,13 +140,13 @@
                                 <rect key="frame" x="14" y="109" width="386" height="338.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71145284175872803" green="0.92629605531692505" blue="0.66861361265182495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">-plastic bags                                                                      usually end up not recycled because of how difficult they are to sort and can potentially jam the machines while sorting and etc,                                                                   Instead use reusable bags or paper bags.
+                                <string key="text">-plastic bags                                                                      usually end up not recycled because of how difficult they are to sort and can potentially jam the machines while sorting and etc,                                                                   Instead use reusable bags or paper bags.
 
 -plastic one use bottles:                                                         are harmful to the environment and 80% end up in landfills and  the chemicals that are leaked by them.                                                                            Instead: use metal, glass, etc reusable bottles
 
 -plastic straws:                                                                        are also ended up not being recycled due to how small they are which causes them to end up in landfills,                                                                                          Instead: use metal, bamboo, glass, ect. Help save the turtles!!
 
-</mutableString>
+</string>
                                 <color key="textColor" red="0.4240070312" green="0.5" blue="0.42869500710000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -215,7 +215,7 @@ Don’t buy things you really don’t need, consuming less means there will be l
     </scenes>
     <resources>
         <image name="220-2207619_wooden-image-wooden-hanger-png-removebg-preview" width="653" height="382"/>
-        <image name="Diaper" width="500" height="500"/>
+        <image name="Diaper 1.30.54 PM" width="500" height="500"/>
         <image name="Hose" width="590" height="343"/>
         <image name="Image" width="2300" height="1650"/>
         <image name="Image-1" width="979" height="1024"/>
