@@ -15,10 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Recycling" translatesAutoresizingMaskIntoConstraints="NO" id="ghW-ll-hJ0">
-                                <rect key="frame" x="-13" y="42" width="440" height="301"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why Recycle?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuF-MW-hO7">
                                 <rect key="frame" x="57" y="308" width="301" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -58,6 +54,10 @@
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16.799999237060547"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reducereuserecycle-1200x627-1" translatesAutoresizingMaskIntoConstraints="NO" id="ghW-ll-hJ0">
+                                <rect key="frame" x="-13" y="55" width="440" height="301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.85538417099999997" green="0.92949753999999996" blue="0.89242279530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -601,8 +601,8 @@ Don’t buy things you don’t need as consuming less means there will be less w
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Fp7-o7-Ghr"/>
-        <segue reference="mOU-X2-U0w"/>
+        <segue reference="cDI-IZ-Ont"/>
+        <segue reference="Wvh-9t-ofl"/>
         <segue reference="0e8-g6-w4r"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -620,7 +620,6 @@ Don’t buy things you don’t need as consuming less means there will be less w
         <image name="Image-7" width="150" height="279"/>
         <image name="Image-8" width="460" height="460"/>
         <image name="Image-9" width="1600" height="1571"/>
-        <image name="Recycling" width="506" height="256"/>
         <image name="Screen Shot 2021-07-22 at 6.39.11 PM" width="1200" height="664"/>
         <image name="Tire" width="313" height="346"/>
         <image name="Unknown-3" width="214" height="148"/>
@@ -630,6 +629,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
         <image name="hq720" width="720" height="404"/>
         <image name="newspaper" catalog="system" width="128" height="108"/>
         <image name="png-clipart-head-shoulders-shampoo-dandruff-lotion-hair-shampoo-miscellaneous-cosmetics-removebg-preview" width="471" height="529"/>
+        <image name="reducereuserecycle-1200x627-1" width="800" height="418"/>
         <image name="trash" catalog="system" width="121" height="128"/>
         <image name="trash.slash" catalog="system" width="115" height="128"/>
         <image name="trashmen " width="1182" height="860"/>
