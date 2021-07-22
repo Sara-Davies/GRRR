@@ -15,7 +15,23 @@ class FourthViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func patgoniaButton(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.patagonia.com/home/")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    
+    
+    @IBAction func seventhButton(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.seventhgeneration.com/blog/plant-powered-movement-underway?gclid=CjwKCAjwruSHBhAtEiwA_qCppvhAuUwse-XPmYjLfx6FELR-mthA1cGicHvOhSB0sz9kbPCuVbyg-BoCQsAQAvD_BwE&gclsrc=aw.ds")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    
+    @IBAction func goodcompButton(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://agood.com/?gclid=CjwKCAjwruSHBhAtEiwA_qCppkxQkh2WPja7Lb6FQ-NN5UkdCI8Xu4ir-GjFrJON-fVbUrWrCDKYZhoCUuwQAvD_BwE")! as URL, options: [:], completionHandler: nil)
+        
+        
+    }
+    
     /*
     // MARK: - Navigation
 
