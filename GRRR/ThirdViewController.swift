@@ -15,7 +15,12 @@ class ThirdViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func openYoutube(_ sender: UIButton) {
+        
+        UIApplication.shared.open(URL(string: "https://www.youtube.com/watch?v=ZT0uqEPzbd0")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    
     /*
     // MARK: - Navigation
 
