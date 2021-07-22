@@ -33,34 +33,34 @@
                                 <color key="textColor" red="1" green="0.97632374639999997" blue="0.85513286629999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CGN-24-j2Z">
-                                <rect key="frame" x="14" y="729" width="386" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">The failure on behalf of Earth's citizens to effectively recycle and manage our waste has lead to pollution and climate change. The four of us at GRRR want to increase how much the world recycles by providing a directory of recyclable items and encouraging recycling and waste reduction.</string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14.5"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Out of the 75% of recyclable materials in the U.S., only 32% are recycled." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWb-Uk-j62">
-                                <rect key="frame" x="3" y="659" width="409" height="46"/>
+                                <rect key="frame" x="3" y="636" width="409" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
                                 <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7l3-z7-iAw">
-                                <rect key="frame" x="14" y="415" width="386" height="156"/>
+                                <rect key="frame" x="14" y="387" width="386" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.895170629" green="0.96400064230000004" blue="0.85142546890000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Recyling allows for us to take care of our planet in several ways. Not only can it help the environment by supporting public health, saving resources, and preventing pollution, but it can also support our economy by creating jobs. By recycling, we are easily able to avoid landfills and save money. In doing so, we prevent destruction and pollution-consequences of extracting Earth's virgin materials, such as precious metals and trees.</string>
+                                <color key="textColor" red="0.29681535257236175" green="0.31393833108453284" blue="0.27380837965136434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CGN-24-j2Z">
+                                <rect key="frame" x="14" y="698" width="386" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.895170629" green="0.96400064230000004" blue="0.85142546890000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">The failure on behalf of Earth's citizens to effectively recycle and manage our waste has lead to pollution and climate change. The four of us at GRRR want to increase how much the world recycles by providing a directory of recyclable items and encouraging recycling and waste reduction.</string>
                                 <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14.5"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16.799999237060547"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.71254217620000004" green="0.84158557649999999" blue="0.63591700790000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="GRRR" id="tGd-h7-FTy">
                         <rightBarButtonItems>
@@ -101,179 +101,179 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click on each item down below to see if it can be recycled or not!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fY0-P7-rww">
-                                <rect key="frame" x="58" y="75" width="301" height="99"/>
+                                <rect key="frame" x="55" y="107" width="301" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
                                 <color key="textColor" red="1" green="0.97632374643323305" blue="0.85513286630702334" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="kkA-UZ-r9K">
-                                <rect key="frame" x="-91" y="149" width="290" height="139"/>
+                                <rect key="frame" x="-93" y="181" width="290" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="z6h-nL-Cgh">
-                                <rect key="frame" x="60" y="158" width="271" height="139"/>
+                                <rect key="frame" x="57" y="190" width="271" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-3" translatesAutoresizingMaskIntoConstraints="NO" id="GJy-1Y-krb">
-                                <rect key="frame" x="133" y="607" width="196" height="119"/>
+                                <rect key="frame" x="130" y="639" width="196" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-4" translatesAutoresizingMaskIntoConstraints="NO" id="uNy-zJ-f6i">
-                                <rect key="frame" x="-57" y="268" width="298" height="204"/>
+                                <rect key="frame" x="-59" y="300" width="298" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-6" translatesAutoresizingMaskIntoConstraints="NO" id="7Ma-Pw-xjf">
-                                <rect key="frame" x="-66" y="456" width="240" height="128"/>
+                                <rect key="frame" x="-68" y="488" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-5" translatesAutoresizingMaskIntoConstraints="NO" id="T7z-Gg-Xb5">
-                                <rect key="frame" x="85" y="466" width="220" height="118"/>
+                                <rect key="frame" x="82" y="498" width="220" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUn-lG-pUw">
-                                <rect key="frame" x="111" y="466" width="174" height="112"/>
+                                <rect key="frame" x="108" y="498" width="174" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="cardboardButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="wI3-oj-ClP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNU-It-hGO">
-                                <rect key="frame" x="325" y="456" width="43" height="122"/>
+                                <rect key="frame" x="322" y="488" width="43" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="shampooButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="JSu-bC-VgC"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hose" translatesAutoresizingMaskIntoConstraints="NO" id="ANR-Kj-u4k">
-                                <rect key="frame" x="31" y="626" width="153" height="81"/>
+                                <rect key="frame" x="28" y="658" width="153" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-7" translatesAutoresizingMaskIntoConstraints="NO" id="SOB-jO-WrS">
-                                <rect key="frame" x="111" y="304" width="240" height="132"/>
+                                <rect key="frame" x="108" y="336" width="240" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="Mu6-FU-3fV">
-                                <rect key="frame" x="230" y="160" width="240" height="137"/>
+                                <rect key="frame" x="227" y="192" width="240" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-9" translatesAutoresizingMaskIntoConstraints="NO" id="tmI-qz-SXI">
-                                <rect key="frame" x="249" y="313" width="197" height="114"/>
+                                <rect key="frame" x="246" y="345" width="197" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Diaper 1.30.54 PM" translatesAutoresizingMaskIntoConstraints="NO" id="c8S-Et-eLs">
-                                <rect key="frame" x="-23" y="734" width="231" height="121"/>
+                                <rect key="frame" x="-26" y="766" width="231" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="220-2207619_wooden-image-wooden-hanger-png-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="npo-ly-N5L">
-                                <rect key="frame" x="127" y="734" width="202" height="93"/>
+                                <rect key="frame" x="124" y="766" width="202" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tire" translatesAutoresizingMaskIntoConstraints="NO" id="x5X-K1-djT">
-                                <rect key="frame" x="238" y="606" width="208" height="115"/>
+                                <rect key="frame" x="235" y="638" width="208" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SY-1F-Cb6">
-                                <rect key="frame" x="31" y="168" width="46" height="119"/>
+                                <rect key="frame" x="28" y="200" width="46" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="bottleButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="Lq3-u3-ugn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYb-WQ-0UK">
-                                <rect key="frame" x="111" y="168" width="165" height="120"/>
+                                <rect key="frame" x="108" y="200" width="165" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="magazineButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="Lnm-YX-zci"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzd-4j-7OZ">
-                                <rect key="frame" x="300" y="168" width="94" height="119"/>
+                                <rect key="frame" x="297" y="200" width="94" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="bagButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="aES-4t-ULg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Muh-Vc-r6k">
-                                <rect key="frame" x="20" y="323" width="154" height="95"/>
+                                <rect key="frame" x="17" y="355" width="154" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="foamButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="RKR-10-u9h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoX-pY-hID">
-                                <rect key="frame" x="198" y="303" width="66" height="133"/>
+                                <rect key="frame" x="195" y="335" width="66" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="cartonButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="Es2-J5-n43"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eN5-Q4-UzQ">
-                                <rect key="frame" x="291" y="313" width="111" height="114"/>
+                                <rect key="frame" x="288" y="345" width="111" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="shirtButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="Sm3-2U-z6P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IuD-AZ-cXZ">
-                                <rect key="frame" x="39" y="623" width="135" height="84"/>
+                                <rect key="frame" x="36" y="655" width="135" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="hoseButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="1hT-fi-V4q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQq-sy-HDB">
-                                <rect key="frame" x="198" y="607" width="66" height="119"/>
+                                <rect key="frame" x="195" y="639" width="66" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="canButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="MUb-gf-B6Q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkD-Tz-gtC">
-                                <rect key="frame" x="300" y="607" width="86" height="110"/>
+                                <rect key="frame" x="297" y="639" width="86" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="tireButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="Pt2-2d-PfK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCl-Bd-gCa">
-                                <rect key="frame" x="31" y="751" width="112" height="88"/>
+                                <rect key="frame" x="28" y="783" width="112" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="diaperButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="h2E-IV-bJ8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koN-Po-3lY">
-                                <rect key="frame" x="160" y="742" width="136" height="76"/>
+                                <rect key="frame" x="157" y="774" width="136" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="hangerButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="WSM-FY-1q2"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png-clipart-head-shoulders-shampoo-dandruff-lotion-hair-shampoo-miscellaneous-cosmetics-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="udJ-sQ-cZC">
-                                <rect key="frame" x="213" y="444" width="268" height="145"/>
+                                <rect key="frame" x="210" y="476" width="268" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esz-rG-lii">
-                                <rect key="frame" x="39" y="456" width="30" height="122"/>
+                                <rect key="frame" x="36" y="488" width="30" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="glassButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="IiF-1N-bdK"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-8" translatesAutoresizingMaskIntoConstraints="NO" id="S4M-Kf-d10">
-                                <rect key="frame" x="243" y="742" width="208" height="104"/>
+                                <rect key="frame" x="240" y="774" width="208" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1i-a0-3YW">
-                                <rect key="frame" x="312" y="742" width="73" height="104"/>
+                                <rect key="frame" x="309" y="774" width="73" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="cheerioButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="zVe-UL-g4h"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Friendly Recycling Guide" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7O-b0-0cg">
-                                <rect key="frame" x="-57" y="165" width="429" height="46"/>
+                                <rect key="frame" x="-7" y="88" width="429" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="23"/>
                                 <color key="textColor" red="0.20000000000000001" green="0.23921568627450979" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -281,7 +281,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bmx-Xo-QYS"/>
-                        <color key="backgroundColor" red="0.64029316198086572" green="0.67450980390000004" blue="0.52600068810454681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.71254217620000004" green="0.84158557649999999" blue="0.63591700790000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Recycling Guide" id="lpz-B3-gDv">
                         <rightBarButtonItems>
@@ -528,7 +528,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 6.39.11 PM" translatesAutoresizingMaskIntoConstraints="NO" id="olD-4o-t7R">
-                                <rect key="frame" x="0.0" y="128" width="414" height="188"/>
+                                <rect key="frame" x="-17" y="111" width="449" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trashmen " translatesAutoresizingMaskIntoConstraints="NO" id="ilc-du-NR4">
@@ -557,7 +557,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ql-oi-plr">
-                                <rect key="frame" x="52" y="324" width="342" height="31"/>
+                                <rect key="frame" x="41" y="316" width="342" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Maine Will Make Companies Pay For Recycling."/>
@@ -595,9 +595,9 @@ Don’t buy things you don’t need as consuming less means there will be less w
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="KgE-16-fkJ"/>
-        <segue reference="yKM-8I-8sg"/>
-        <segue reference="6EV-uH-oAi"/>
+        <segue reference="cDI-IZ-Ont"/>
+        <segue reference="Wvh-9t-ofl"/>
+        <segue reference="0e8-g6-w4r"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="220-2207619_wooden-image-wooden-hanger-png-removebg-preview" width="653" height="382"/>
