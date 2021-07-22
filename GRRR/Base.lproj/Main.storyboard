@@ -31,13 +31,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Friendly Recycling Guide" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7O-b0-0cg">
-                                <rect key="frame" x="-6" y="42" width="429" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568627450979" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click on each item down below to see if it can be recycled or not!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fY0-P7-rww">
                                 <rect key="frame" x="58" y="75" width="301" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -210,6 +203,13 @@
                                     <action selector="cheerioButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="zVe-UL-g4h"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Friendly Recycling Guide" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7O-b0-0cg">
+                                <rect key="frame" x="-6" y="54" width="429" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="23"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.23921568627450979" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bmx-Xo-QYS"/>
                         <color key="backgroundColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -229,26 +229,61 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g7Y-gU-vtf">
-                                <rect key="frame" x="17" y="583" width="381" height="384"/>
+                                <rect key="frame" x="17" y="613" width="381" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Buy products with less packaging.
 
 Look for markets/stores with options to refill your own containers, bags, etc. 
 
-Reuse, opt for anything that is reusable rather than disposable and one time use, (ex; cloths/towels instead of paper towels).
+Reuse, opt for anything that is reusable rather than disposable and one time use (ex: cloths/towels instead of paper towels)
 
-Invest in high quality items that you can use for years and not have to replace, (ex; furniture, clothes, etc).
+Invest in high quality items that you can use for years and not have to replace (ex: furniture, clothes, etc).
 
-Don’t buy things you really don’t need, consuming less means there will be less waste.</string>
+Don’t buy things you don’t need, consuming less means there will be less waste.</string>
                                 <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koi-Ve-jf7">
-                                <rect key="frame" x="166" y="545" width="83" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DiK-Gd-pYJ">
+                                <rect key="frame" x="14" y="151" width="386" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="link to video">
+                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">1. plastic bags:                                                                                   usually end up not recycled because of how difficult they are to sort and can potentially jam the machines while sorting                                                                                                        Instead use reusable bags or paper bags.
+
+2. plastic one use bottles:                                                         are harmful to the environment and 80% end up in landfills.                                                                                                         Instead: use metal, glass, or any other reusable bottles
+
+3. plastic straws:                                                                        end up not being recycled due to how small they are, which causes them to end up in landfills.                                                                                                                                  Instead: use metal, bamboo, &amp; glass straws.
+</mutableString>
+                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 🌱 Reducing Waste🌱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fg-RF-1gF">
+                                <rect key="frame" x="88" y="80" width="238" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="0.34509803919999998" green="0.1843137255" blue="0.054901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Items to Avoid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03t-pC-JgP">
+                                <rect key="frame" x="14" y="129" width="113" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.87058823529999996" green="0.88235294119999996" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ways to Reduce Waste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0TR-db-Iuz">
+                                <rect key="frame" x="17" y="584" width="181" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.87058823529999996" green="0.88235294119999996" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koi-Ve-jf7">
+                                <rect key="frame" x="59" y="537" width="327" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Click here to learn more about zero-waste living">
                                     <color key="titleColor" red="0.34509803921568627" green="0.18431372549019609" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -256,24 +291,9 @@ Don’t buy things you really don’t need, consuming less means there will be l
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hq720" translatesAutoresizingMaskIntoConstraints="NO" id="wda-CE-GzF">
-                                <rect key="frame" x="87" y="413" width="240" height="128"/>
+                                <rect key="frame" x="109" y="424" width="227" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DiK-Gd-pYJ">
-                                <rect key="frame" x="14" y="66" width="386" height="338.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">-plastic bags                                                                      usually end up not recycled because of how difficult they are to sort and can potentially jam the machines while sorting and etc,                                                                   Instead use reusable bags or paper bags.
-
--plastic one use bottles:                                                         are harmful to the environment and 80% end up in landfills and  the chemicals that are leaked by them.                                                                            Instead: use metal, glass, etc reusable bottles
-
--plastic straws:                                                                        are also ended up not being recycled due to how small they are which causes them to end up in landfills,                                                                                          Instead: use metal, bamboo, glass, ect. Help save the turtles!!
-
-</string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bUG-P1-BHq"/>
                         <color key="backgroundColor" red="0.64313725490196072" green="0.67450980392156867" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -344,7 +364,7 @@ Many of these companies are focused not only on avoiding harm to the planet, but
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kW4-Fo-LhU">
-                                <rect key="frame" x="24" y="582" width="133" height="128"/>
+                                <rect key="frame" x="24" y="586" width="133" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="goodcompButton:" destination="yPn-zo-6Um" eventType="touchUpInside" id="ton-FK-fQ7"/>
