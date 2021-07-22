@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.59210711717605591" green="0.91259169578552246" blue="0.52851700782775879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="414" height="1300"/>
                 </viewController>
@@ -36,14 +35,14 @@
                                 <rect key="frame" x="-6" y="42" width="429" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="24"/>
-                                <color key="textColor" red="0.35151640579999999" green="0.42957452330000001" blue="0.33177766829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.23921568627450979" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click on each item down below to see if it can be recycled or not!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fY0-P7-rww">
                                 <rect key="frame" x="58" y="75" width="301" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
-                                <color key="textColor" red="0.31601029210372467" green="0.26328296420821529" blue="0.14696990721258865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.34509803919999998" green="0.1843137255" blue="0.054901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="kkA-UZ-r9K">
@@ -213,7 +212,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bmx-Xo-QYS"/>
-                        <color key="backgroundColor" red="0.82950953679999995" green="1" blue="0.81756212120000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="lpz-B3-gDv"/>
                 </viewController>
@@ -229,25 +228,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DiK-Gd-pYJ">
-                                <rect key="frame" x="14" y="109" width="386" height="338.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71145284175872803" green="0.92629605531692505" blue="0.66861361265182495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">-plastic bags                                                                      usually end up not recycled because of how difficult they are to sort and can potentially jam the machines while sorting and etc,                                                                   Instead use reusable bags or paper bags.
-
--plastic one use bottles:                                                         are harmful to the environment and 80% end up in landfills and  the chemicals that are leaked by them.                                                                            Instead: use metal, glass, etc reusable bottles
-
--plastic straws:                                                                        are also ended up not being recycled due to how small they are which causes them to end up in landfills,                                                                                          Instead: use metal, bamboo, glass, ect. Help save the turtles!!
-
-</string>
-                                <color key="textColor" red="0.4240070312" green="0.5" blue="0.42869500710000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g7Y-gU-vtf">
                                 <rect key="frame" x="17" y="583" width="381" height="384"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71145284175872803" green="0.92629605531692505" blue="0.66861361265182495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Buy products with less packaging.
 
 Look for markets/stores with options to refill your own containers, bags, etc. 
@@ -257,14 +241,16 @@ Reuse, opt for anything that is reusable rather than disposable and one time use
 Invest in high quality items that you can use for years and not have to replace, (ex; furniture, clothes, etc).
 
 Don’t buy things you really don’t need, consuming less means there will be less waste.</string>
-                                <color key="textColor" red="0.4240070312" green="0.5" blue="0.42869500710000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koi-Ve-jf7">
                                 <rect key="frame" x="166" y="545" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="link to video"/>
+                                <state key="normal" title="link to video">
+                                    <color key="titleColor" red="0.34509803921568627" green="0.18431372549019609" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="openYoutube:" destination="9WY-vZ-pQC" eventType="touchUpInside" id="ts8-jI-5eR"/>
                                 </connections>
@@ -273,9 +259,24 @@ Don’t buy things you really don’t need, consuming less means there will be l
                                 <rect key="frame" x="87" y="413" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DiK-Gd-pYJ">
+                                <rect key="frame" x="14" y="66" width="386" height="338.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">-plastic bags                                                                      usually end up not recycled because of how difficult they are to sort and can potentially jam the machines while sorting and etc,                                                                   Instead use reusable bags or paper bags.
+
+-plastic one use bottles:                                                         are harmful to the environment and 80% end up in landfills and  the chemicals that are leaked by them.                                                                            Instead: use metal, glass, etc reusable bottles
+
+-plastic straws:                                                                        are also ended up not being recycled due to how small they are which causes them to end up in landfills,                                                                                          Instead: use metal, bamboo, glass, ect. Help save the turtles!!
+
+</mutableString>
+                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bUG-P1-BHq"/>
-                        <color key="backgroundColor" red="0.71145284175872803" green="0.92629605531692505" blue="0.66861361265182495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.64313725490196072" green="0.67450980392156867" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="BcC-Xe-SXc"/>
                 </viewController>
@@ -290,13 +291,56 @@ Don’t buy things you really don’t need, consuming less means there will be l
                     <view key="view" contentMode="scaleToFill" id="FyU-64-PK5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌿Eco-Friendly Companies 🌿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mA-ty-sJ5">
+                                <rect key="frame" x="46" y="64" width="322" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="0.34509803919999998" green="0.1843137255" blue="0.054901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What makes a company Eco-Friendly?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKp-DT-WDa">
+                                <rect key="frame" x="12" y="134" width="303" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.87058823529411766" green="0.88235294117647056" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="89Z-pk-d47">
+                                <rect key="frame" x="8" y="163" width="386" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Eco-friendly companies make sustainable products that are sourced ethically and are responsibly produced.  
+
+Many of these companies are focused not only on avoiding harm to the planet, but also improving the planet</string>
+                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vt7-2v-kns">
+                                <rect key="frame" x="12" y="437" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lzt-Fl-c8r">
+                                <rect key="frame" x="20" y="588" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sJd-fz-sU2">
+                                <rect key="frame" x="20" y="734" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Patagonia" translatesAutoresizingMaskIntoConstraints="NO" id="0WF-nl-9LP">
+                                <rect key="frame" x="8" y="236" width="222" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="sjU-r2-buw"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sul-WZ-Xab" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1277" y="118"/>
+            <point key="canvasLocation" x="1276.8115942028987" y="117.85714285714285"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="aBH-ge-N6F">
@@ -306,7 +350,7 @@ Don’t buy things you really don’t need, consuming less means there will be l
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="j0R-MP-cn2"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="98f-Z3-VbZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -328,11 +372,9 @@ Don’t buy things you really don’t need, consuming less means there will be l
         <image name="Image-7" width="150" height="279"/>
         <image name="Image-8" width="460" height="460"/>
         <image name="Image-9" width="1600" height="1571"/>
+        <image name="Patagonia" width="307" height="164"/>
         <image name="Tire" width="313" height="346"/>
         <image name="hq720" width="720" height="404"/>
         <image name="png-clipart-head-shoulders-shampoo-dandruff-lotion-hair-shampoo-miscellaneous-cosmetics-removebg-preview" width="471" height="529"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
