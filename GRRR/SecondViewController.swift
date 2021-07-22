@@ -81,7 +81,7 @@ class SecondViewController: UIViewController {
     
     @IBAction func cardboardButtonTapped(_ sender: UIButton) {
         
-        let alertController = UIAlertController(title: "Cardboard", message: "Cardboard can be recycled but please first use a sharp tool to cup the tape used to seal the box and collapse/flatten it. Don’t worry about removing the tape but maybe leave out pizza boxes that are stained or soiled!", preferredStyle: UIAlertController.Style.alert)
+        let alertController = UIAlertController(title: "Cardboard", message: "Cardboard can be recycled but please first use a sharp tool to cut the tape used to seal the box and collapse/flatten it. Don’t worry about removing the tape but maybe leave out pizza boxes that are stained or soiled!", preferredStyle: UIAlertController.Style.alert)
         
         alertController.addAction(UIAlertAction(title: "Got it!", style: UIAlertAction.Style.default, handler: nil))
         

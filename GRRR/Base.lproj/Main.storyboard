@@ -39,7 +39,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7l3-z7-iAw">
                                 <rect key="frame" x="14" y="387" width="386" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873391391364" alpha="0.64842476750051736" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Recyling allows for us to take care of our planet in several ways. Not only can it help the environment by supporting public health, saving resources, and preventing pollution, but it can also support our economy by creating jobs. By recycling, we are easily able to avoid landfills and save money. In doing so, we prevent destruction and pollution-consequences of extracting Earth's virgin materials, such as precious metals and trees.</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
@@ -48,14 +47,13 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CGN-24-j2Z">
                                 <rect key="frame" x="14" y="698" width="386" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">The failure on behalf of Earth's citizens to effectively recycle and manage our waste has lead to pollution and climate change. The four of us at GRRR (Girls Reduce Reuse Recycle) want to increase how much the world recycles by providing a directory of recyclable items and encouraging recycling and waste reduction.</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16.799999237060547"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reducereuserecycle-1200x627-1" translatesAutoresizingMaskIntoConstraints="NO" id="ghW-ll-hJ0">
-                                <rect key="frame" x="-13" y="55" width="440" height="301"/>
+                                <rect key="frame" x="-13" y="65" width="440" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -318,7 +316,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g7Y-gU-vtf">
                                 <rect key="frame" x="20" y="603" width="381" height="259"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Buy products with less packaging
 
 Look for markets/stores with options to refill your own containers, bags, etc
@@ -333,15 +330,14 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DiK-Gd-pYJ">
-                                <rect key="frame" x="14" y="139" width="386" height="254"/>
+                                <rect key="frame" x="14" y="159" width="386" height="254"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Plastic Bags:                                                                                   They usually end up not recycled because of how difficult they are to sort and could jam the machines while sorting.                                                                                                       Instead: Use reusable bags or paper bags
+                                <mutableString key="text">They usually end up not recycled because of how difficult they are to sort and could jam the machines while sorting.                                                                                                       Instead: Use reusable bags or paper bags
+      
+                                                                                                                                 They are extremely harmful to the environment and 80% of the bottles actually end up in landfills at the end.                                                                                                  Instead: Use metal, glass, or any other reusable bottles
 
-2. Plastic One Use Bottles:                                                       They are extremely harmful to the environment and 80% of the bottles actually end up in landfills at the end.                                                                                                  Instead: Use metal, glass, or any other reusable bottles
-
-3. Plastic Straws:                                                                        They end up not being recycled due to how small they are, which causes them to eventually end up in landfills.                                                                                                                                  Instead: Use metal, bamboo, and glass straws
-</string>
+                                                                                            They end up not being recycled due to how small they are, which causes them to eventually end up in landfills.                                                                                                                                  Instead: Use metal, bamboo, and glass straws
+</mutableString>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -361,7 +357,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ways to Reduce Waste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0TR-db-Iuz">
-                                <rect key="frame" x="17" y="574" width="198" height="26"/>
+                                <rect key="frame" x="26" y="574" width="198" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18.5"/>
                                 <color key="textColor" red="0.92819648980000002" green="0.7138794356" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -372,7 +368,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Click here to learn more about zero-waste living!">
-                                    <color key="titleColor" red="0.44950449469999998" green="0.67450916770000002" blue="0.67030233139999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.31394798922726913" green="0.47567132725374811" blue="0.48063546361816611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="openYoutube:" destination="9WY-vZ-pQC" eventType="touchUpInside" id="ts8-jI-5eR"/>
@@ -382,6 +378,27 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <rect key="frame" x="79" y="409" width="258" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Plastic Bags:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmF-do-aNt">
+                                <rect key="frame" x="-79" y="110" width="301" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="16"/>
+                                <color key="textColor" red="0.4488541881" green="0.67450980390000004" blue="0.67254700150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Plastic One Use Bottles:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x40-sG-0qy">
+                                <rect key="frame" x="-36" y="195" width="301" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="16"/>
+                                <color key="textColor" red="0.4488541881" green="0.67450980390000004" blue="0.67254700150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. Plastic Straws:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSa-ko-02f">
+                                <rect key="frame" x="-70" y="281" width="301" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBoldItalic" family="Avenir Next" pointSize="16"/>
+                                <color key="textColor" red="0.4488541881" green="0.67450980390000004" blue="0.67254700150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bUG-P1-BHq"/>
                         <color key="backgroundColor" red="0.85490196078431369" green="0.92941176470588238" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -430,10 +447,9 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="89Z-pk-d47">
                                 <rect key="frame" x="12" y="142" width="386" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Eco-friendly companies make sustainable products that are sourced ethically and are responsibly produced. Many of these companies are focused not only on avoiding harm to the planet, but also improving the planet</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7thgen1" translatesAutoresizingMaskIntoConstraints="NO" id="Vt7-2v-kns">
@@ -468,7 +484,6 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bhP-5Z-zi3">
                                 <rect key="frame" x="126" y="430" width="281" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Seventh Generation makes plant-based products made of ethically and sustainably sourced ingredients. Their packaging also uses recycled materials and is designed to be recycled. They also aim to become a zero-waste company by 2025 and support the Sierra Club’s Ready for 100 campaign, an environmental initiative to get cities across the country to commit to 100% clean, renewable, and just energy usage by 2050. </string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
@@ -484,25 +499,23 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5tC-wA-hhP">
                                 <rect key="frame" x="128" y="636" width="281" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">A Good Company is an ethical alternative to Amazon that takes the planet’s health into consideration with each product. It encourages customers to be conscious consumers and to end mindless consumption. Their products include: the world’s first climate positive notebook made with stone paper, a luxury pen made of melted down illegal firearms, and eco friendly phone cases, all in climate positive packaging.</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-3" translatesAutoresizingMaskIntoConstraints="NO" id="Zqt-y5-lJH">
-                                <rect key="frame" x="-3" y="253" width="136" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JXv-z4-XVL">
-                                <rect key="frame" x="128" y="253" width="281" height="130"/>
+                                <rect key="frame" x="128" y="253" width="281" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Patagnoia has given over $89 million to grassroots and environmental groups. They also sued the president in 2017 to preserve national monuments. Much of their raw materials are recycled or grown organically to reduce their environmental footprint. They aim to be carbon neutral by 2025. </string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="15.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-3" translatesAutoresizingMaskIntoConstraints="NO" id="Zqt-y5-lJH">
+                                <rect key="frame" x="-5" y="253" width="136" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sjU-r2-buw"/>
                         <color key="backgroundColor" red="0.85490196078431369" green="0.92941176470588238" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
