@@ -249,12 +249,12 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <rect key="frame" x="14" y="139" width="386" height="254"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">1. Plastic Bags:                                                                                   They usually end up not recycled because of how difficult they are to sort and could jam the machines while sorting.                                                                                                       Instead: Use reusable bags or paper bags
+                                <string key="text">1. Plastic Bags:                                                                                   They usually end up not recycled because of how difficult they are to sort and could jam the machines while sorting.                                                                                                       Instead: Use reusable bags or paper bags
 
 2. Plastic One Use Bottles:                                                       They are extremely harmful to the environment and 80% of the bottles actually end up in landfills at the end.                                                                                                  Instead: Use metal, glass, or any other reusable bottles
 
 3. Plastic Straws:                                                                        They end up not being recycled due to how small they are, which causes them to eventually end up in landfills.                                                                                                                                  Instead: Use metal, bamboo, and glass straws
-</mutableString>
+</string>
                                 <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -335,73 +335,54 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="89Z-pk-d47">
-                                <rect key="frame" x="12" y="142" width="386" height="107"/>
+                                <rect key="frame" x="12" y="142" width="386" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Eco-friendly companies make sustainable products that are sourced ethically and are responsibly produced.  
-
-Many of these companies are focused not only on avoiding harm to the planet, but also improving the planet</string>
+                                <string key="text">Eco-friendly companies make sustainable products that are sourced ethically and are responsibly produced. Many of these companies are focused not only on avoiding harm to the planet, but also improving the planet</string>
                                 <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7thgen1" translatesAutoresizingMaskIntoConstraints="NO" id="Vt7-2v-kns">
-                                <rect key="frame" x="30" y="528" width="113" height="112"/>
+                                <rect key="frame" x="5" y="430" width="113" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agoodcopmany" translatesAutoresizingMaskIntoConstraints="NO" id="lzt-Fl-c8r">
-                                <rect key="frame" x="13" y="710" width="130" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Patagonia" translatesAutoresizingMaskIntoConstraints="NO" id="0WF-nl-9LP">
-                                <rect key="frame" x="12" y="234" width="222" height="236"/>
+                                <rect key="frame" x="5" y="630" width="117" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyz-Mm-TV2">
-                                <rect key="frame" x="12" y="293" width="222" height="120"/>
+                                <rect key="frame" x="7" y="253" width="113" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="patgoniaButton:" destination="yPn-zo-6Um" eventType="touchUpInside" id="Gfn-mk-ox4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESG-2o-cwl">
-                                <rect key="frame" x="30" y="528" width="113" height="112"/>
+                                <rect key="frame" x="7" y="430" width="113" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="seventhButton:" destination="yPn-zo-6Um" eventType="touchUpInside" id="lks-cG-jhp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzX-Ow-O8c">
-                                <rect key="frame" x="13" y="710" width="130" height="128"/>
+                                <rect key="frame" x="9" y="636" width="113" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="goodcompButton:" destination="yPn-zo-6Um" eventType="touchUpInside" id="waS-cO-Jtw"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JXv-z4-XVL">
-                                <rect key="frame" x="92" y="261" width="322" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Patagnoia has given over $89 million to grassroots and environmental groups. They also sued the president in 2017 to preserve national monuments.
-
-Much of their raw materials are recycled or grown organically to reduce their environmental footprint. They aim to be carbon neutral by 2025. </string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="15.5"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bhP-5Z-zi3">
-                                <rect key="frame" x="116" y="452" width="298" height="232"/>
+                                <rect key="frame" x="126" y="430" width="281" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Seventh Generation makes plant-based products made of ethically and sustainably sourced ingredients. Their packaging also uses recycled materials and is designed to be recycled. 
-
- They also aim to become a zero-waste company by 2025 and support the Sierra Club’s Ready for 100 campaign, an environmental initiative to get cities across the country to commit to 100% clean, renewable, and just energy usage by 2050. </string>
+                                <string key="text">Seventh Generation makes plant-based products made of ethically and sustainably sourced ingredients. Their packaging also uses recycled materials and is designed to be recycled. They also aim to become a zero-waste company by 2025 and support the Sierra Club’s Ready for 100 campaign, an environmental initiative to get cities across the country to commit to 100% clean, renewable, and just energy usage by 2050. </string>
                                 <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌿Eco-Friendly Companies 🌿" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBw-dc-IYn">
-                                <rect key="frame" x="0.0" y="44" width="429" height="46"/>
+                                <rect key="frame" x="0.0" y="62" width="429" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="23"/>
                                 <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -415,15 +396,25 @@ Much of their raw materials are recycled or grown organically to reduce their en
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5tC-wA-hhP">
-                                <rect key="frame" x="28" y="692" width="386" height="177"/>
+                                <rect key="frame" x="128" y="636" width="281" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">A Good Company is an ethical alternative to Amazon that takes the planet’s health into consideration with each product. It encourages customers to be conscious consumers and to end mindless consumption. 
-
-Their products include: the world’s first climate positive notebook made with stone paper, a luxury pen made of melted down illegal firearms, and eco friendly phone cases, all in climate positive packaging.
- </string>
+                                <string key="text">A Good Company is an ethical alternative to Amazon that takes the planet’s health into consideration with each product. It encourages customers to be conscious consumers and to end mindless consumption. Their products include: the world’s first climate positive notebook made with stone paper, a luxury pen made of melted down illegal firearms, and eco friendly phone cases, all in climate positive packaging.</string>
                                 <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="15.5"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-3" translatesAutoresizingMaskIntoConstraints="NO" id="Zqt-y5-lJH">
+                                <rect key="frame" x="-3" y="253" width="136" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JXv-z4-XVL">
+                                <rect key="frame" x="128" y="253" width="281" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Patagnoia has given over $89 million to grassroots and environmental groups. They also sued the president in 2017 to preserve national monuments. Much of their raw materials are recycled or grown organically to reduce their environmental footprint. They aim to be carbon neutral by 2025. </string>
+                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -466,8 +457,8 @@ Their products include: the world’s first climate positive notebook made with 
         <image name="Image-7" width="150" height="279"/>
         <image name="Image-8" width="460" height="460"/>
         <image name="Image-9" width="1600" height="1571"/>
-        <image name="Patagonia" width="307" height="164"/>
         <image name="Tire" width="313" height="346"/>
+        <image name="Unknown-3" width="214" height="148"/>
         <image name="agoodcopmany" width="225" height="225"/>
         <image name="hq720" width="720" height="404"/>
         <image name="png-clipart-head-shoulders-shampoo-dandruff-lotion-hair-shampoo-miscellaneous-cosmetics-removebg-preview" width="471" height="529"/>
