@@ -15,52 +15,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Recycling" translatesAutoresizingMaskIntoConstraints="NO" id="ghW-ll-hJ0">
-                                <rect key="frame" x="-13" y="42" width="440" height="301"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why Recycle?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuF-MW-hO7">
                                 <rect key="frame" x="57" y="308" width="301" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
-                                <color key="textColor" red="1" green="0.97632374639999997" blue="0.85513286629999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.44705882352941173" green="0.67450980392156867" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mission Statement" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ize-2l-kmT">
                                 <rect key="frame" x="57" y="566" width="301" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
-                                <color key="textColor" red="1" green="0.97632374639999997" blue="0.85513286629999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.4488541881" green="0.67450980390000004" blue="0.67254700150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CGN-24-j2Z">
-                                <rect key="frame" x="14" y="729" width="386" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">The failure on behalf of Earth's citizens to effectively recycle and manage our waste has lead to pollution and climate change. The four of us at GRRR want to increase how much the world recycles by providing a directory of recyclable items and encouraging recycling and waste reduction.</string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14.5"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Out of the 75% of recyclable materials in the U.S., only 32% are recycled." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWb-Uk-j62">
-                                <rect key="frame" x="3" y="659" width="409" height="46"/>
+                                <rect key="frame" x="3" y="636" width="409" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" red="0.92819648980000002" green="0.7138794356224808" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.67138850689999996" green="0.69404453040000003" blue="0.80080980059999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7l3-z7-iAw">
-                                <rect key="frame" x="14" y="415" width="386" height="156"/>
+                                <rect key="frame" x="14" y="387" width="386" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873391391364" alpha="0.64842476750051736" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Recyling allows for us to take care of our planet in several ways. Not only can it help the environment by supporting public health, saving resources, and preventing pollution, but it can also support our economy by creating jobs. By recycling, we are easily able to avoid landfills and save money. In doing so, we prevent destruction and pollution-consequences of extracting Earth's virgin materials, such as precious metals and trees.</string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14.5"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CGN-24-j2Z">
+                                <rect key="frame" x="14" y="698" width="386" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">The failure on behalf of Earth's citizens to effectively recycle and manage our waste has lead to pollution and climate change. The four of us at GRRR want to increase how much the world recycles by providing a directory of recyclable items and encouraging recycling and waste reduction.</string>
+                                <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16.799999237060547"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reducereuserecycle-1200x627-1" translatesAutoresizingMaskIntoConstraints="NO" id="ghW-ll-hJ0">
+                                <rect key="frame" x="-13" y="55" width="440" height="301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85538417099999997" green="0.92949753999999996" blue="0.89242279530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="GRRR" id="tGd-h7-FTy">
                         <rightBarButtonItems>
@@ -101,187 +101,187 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click on each item down below to see if it can be recycled or not!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fY0-P7-rww">
-                                <rect key="frame" x="58" y="75" width="301" height="99"/>
+                                <rect key="frame" x="55" y="107" width="301" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
-                                <color key="textColor" red="1" green="0.97632374643323305" blue="0.85513286630702334" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.92819648980000002" green="0.7138794356" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="kkA-UZ-r9K">
-                                <rect key="frame" x="-91" y="149" width="290" height="139"/>
+                                <rect key="frame" x="-93" y="181" width="290" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="z6h-nL-Cgh">
-                                <rect key="frame" x="60" y="158" width="271" height="139"/>
+                                <rect key="frame" x="57" y="190" width="271" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-3" translatesAutoresizingMaskIntoConstraints="NO" id="GJy-1Y-krb">
-                                <rect key="frame" x="133" y="607" width="196" height="119"/>
+                                <rect key="frame" x="130" y="639" width="196" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-4" translatesAutoresizingMaskIntoConstraints="NO" id="uNy-zJ-f6i">
-                                <rect key="frame" x="-57" y="268" width="298" height="204"/>
+                                <rect key="frame" x="-59" y="300" width="298" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-6" translatesAutoresizingMaskIntoConstraints="NO" id="7Ma-Pw-xjf">
-                                <rect key="frame" x="-66" y="456" width="240" height="128"/>
+                                <rect key="frame" x="-68" y="488" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-5" translatesAutoresizingMaskIntoConstraints="NO" id="T7z-Gg-Xb5">
-                                <rect key="frame" x="85" y="466" width="220" height="118"/>
+                                <rect key="frame" x="82" y="498" width="220" height="118"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUn-lG-pUw">
-                                <rect key="frame" x="111" y="466" width="174" height="112"/>
+                                <rect key="frame" x="108" y="498" width="174" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="cardboardButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="wI3-oj-ClP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNU-It-hGO">
-                                <rect key="frame" x="325" y="456" width="43" height="122"/>
+                                <rect key="frame" x="322" y="488" width="43" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="shampooButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="JSu-bC-VgC"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hose" translatesAutoresizingMaskIntoConstraints="NO" id="ANR-Kj-u4k">
-                                <rect key="frame" x="31" y="626" width="153" height="81"/>
+                                <rect key="frame" x="28" y="658" width="153" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-7" translatesAutoresizingMaskIntoConstraints="NO" id="SOB-jO-WrS">
-                                <rect key="frame" x="111" y="304" width="240" height="132"/>
+                                <rect key="frame" x="108" y="336" width="240" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="Mu6-FU-3fV">
-                                <rect key="frame" x="230" y="160" width="240" height="137"/>
+                                <rect key="frame" x="227" y="192" width="240" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-9" translatesAutoresizingMaskIntoConstraints="NO" id="tmI-qz-SXI">
-                                <rect key="frame" x="249" y="313" width="197" height="114"/>
+                                <rect key="frame" x="246" y="345" width="197" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Diaper 1.30.54 PM" translatesAutoresizingMaskIntoConstraints="NO" id="c8S-Et-eLs">
-                                <rect key="frame" x="-23" y="734" width="231" height="121"/>
+                                <rect key="frame" x="-26" y="766" width="231" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="220-2207619_wooden-image-wooden-hanger-png-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="npo-ly-N5L">
-                                <rect key="frame" x="127" y="734" width="202" height="93"/>
+                                <rect key="frame" x="124" y="766" width="202" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tire" translatesAutoresizingMaskIntoConstraints="NO" id="x5X-K1-djT">
-                                <rect key="frame" x="238" y="606" width="208" height="115"/>
+                                <rect key="frame" x="235" y="638" width="208" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SY-1F-Cb6">
-                                <rect key="frame" x="31" y="168" width="46" height="119"/>
+                                <rect key="frame" x="28" y="200" width="46" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="bottleButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="Lq3-u3-ugn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYb-WQ-0UK">
-                                <rect key="frame" x="111" y="168" width="165" height="120"/>
+                                <rect key="frame" x="108" y="200" width="165" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="magazineButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="Lnm-YX-zci"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzd-4j-7OZ">
-                                <rect key="frame" x="300" y="168" width="94" height="119"/>
+                                <rect key="frame" x="297" y="200" width="94" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="bagButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="aES-4t-ULg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Muh-Vc-r6k">
-                                <rect key="frame" x="20" y="323" width="154" height="95"/>
+                                <rect key="frame" x="17" y="355" width="154" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="foamButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="RKR-10-u9h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoX-pY-hID">
-                                <rect key="frame" x="198" y="303" width="66" height="133"/>
+                                <rect key="frame" x="195" y="335" width="66" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="cartonButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="Es2-J5-n43"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eN5-Q4-UzQ">
-                                <rect key="frame" x="291" y="313" width="111" height="114"/>
+                                <rect key="frame" x="288" y="345" width="111" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="shirtButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="Sm3-2U-z6P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IuD-AZ-cXZ">
-                                <rect key="frame" x="39" y="623" width="135" height="84"/>
+                                <rect key="frame" x="36" y="655" width="135" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="hoseButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="1hT-fi-V4q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQq-sy-HDB">
-                                <rect key="frame" x="198" y="607" width="66" height="119"/>
+                                <rect key="frame" x="195" y="639" width="66" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="canButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="MUb-gf-B6Q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkD-Tz-gtC">
-                                <rect key="frame" x="300" y="607" width="86" height="110"/>
+                                <rect key="frame" x="297" y="639" width="86" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="tireButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="Pt2-2d-PfK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCl-Bd-gCa">
-                                <rect key="frame" x="31" y="751" width="112" height="88"/>
+                                <rect key="frame" x="28" y="783" width="112" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="diaperButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="h2E-IV-bJ8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koN-Po-3lY">
-                                <rect key="frame" x="160" y="742" width="136" height="76"/>
+                                <rect key="frame" x="157" y="774" width="136" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="hangerButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="WSM-FY-1q2"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png-clipart-head-shoulders-shampoo-dandruff-lotion-hair-shampoo-miscellaneous-cosmetics-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="udJ-sQ-cZC">
-                                <rect key="frame" x="213" y="444" width="268" height="145"/>
+                                <rect key="frame" x="210" y="476" width="268" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esz-rG-lii">
-                                <rect key="frame" x="39" y="456" width="30" height="122"/>
+                                <rect key="frame" x="36" y="488" width="30" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="glassButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="IiF-1N-bdK"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-8" translatesAutoresizingMaskIntoConstraints="NO" id="S4M-Kf-d10">
-                                <rect key="frame" x="243" y="742" width="208" height="104"/>
+                                <rect key="frame" x="240" y="774" width="208" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1i-a0-3YW">
-                                <rect key="frame" x="312" y="742" width="73" height="104"/>
+                                <rect key="frame" x="309" y="774" width="73" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="cheerioButtonTapped:" destination="ygh-Ij-BQB" eventType="touchUpInside" id="zVe-UL-g4h"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Friendly Recycling Guide" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7O-b0-0cg">
-                                <rect key="frame" x="-57" y="165" width="429" height="46"/>
+                                <rect key="frame" x="-7" y="88" width="429" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="23"/>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568627450979" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.44705882352941173" green="0.67450980392156867" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bmx-Xo-QYS"/>
-                        <color key="backgroundColor" red="0.64029316198086572" green="0.67450980390000004" blue="0.52600068810454681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85538417099999997" green="0.92949753999999996" blue="0.89242279530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Recycling Guide" id="lpz-B3-gDv">
                         <rightBarButtonItems>
@@ -318,7 +318,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="g7Y-gU-vtf">
                                 <rect key="frame" x="20" y="603" width="381" height="259"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Buy products with less packaging
 
 Look for markets/stores with options to refill your own containers, bags, etc
@@ -328,21 +328,21 @@ Reuse, opt for anything that is reusable rather than disposable and one time use
 Invest in high quality items that you can use for years and not have to replace (ex: furniture, clothes, etc)
 
 Don’t buy things you don’t need as consuming less means there will be less waste</string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DiK-Gd-pYJ">
                                 <rect key="frame" x="14" y="139" width="386" height="254"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">1. Plastic Bags:                                                                                   They usually end up not recycled because of how difficult they are to sort and could jam the machines while sorting.                                                                                                       Instead: Use reusable bags or paper bags
 
 2. Plastic One Use Bottles:                                                       They are extremely harmful to the environment and 80% of the bottles actually end up in landfills at the end.                                                                                                  Instead: Use metal, glass, or any other reusable bottles
 
 3. Plastic Straws:                                                                        They end up not being recycled due to how small they are, which causes them to eventually end up in landfills.                                                                                                                                  Instead: Use metal, bamboo, and glass straws
 </string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -357,14 +357,14 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <rect key="frame" x="14" y="110" width="128" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18.5"/>
-                                <color key="textColor" red="1" green="0.97632374639999997" blue="0.85513286629999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.92819648980000002" green="0.7138794356" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ways to Reduce Waste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0TR-db-Iuz">
                                 <rect key="frame" x="17" y="574" width="198" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18.5"/>
-                                <color key="textColor" red="1" green="0.97632374639999997" blue="0.85513286629999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.92819648980000002" green="0.7138794356" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koi-Ve-jf7">
@@ -372,7 +372,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Click here to learn more about zero-waste living!">
-                                    <color key="titleColor" red="0.34509803921568627" green="0.18431372549019609" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.44950449469999998" green="0.67450916770000002" blue="0.67030233139999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="openYoutube:" destination="9WY-vZ-pQC" eventType="touchUpInside" id="ts8-jI-5eR"/>
@@ -384,7 +384,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bUG-P1-BHq"/>
-                        <color key="backgroundColor" red="0.64313725490196072" green="0.67450980392156867" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85490196078431369" green="0.92941176470588238" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title=" 🌱 Reducing Waste🌱" id="BcC-Xe-SXc">
                         <rightBarButtonItems>
@@ -430,9 +430,9 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="89Z-pk-d47">
                                 <rect key="frame" x="12" y="142" width="386" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Eco-friendly companies make sustainable products that are sourced ethically and are responsibly produced. Many of these companies are focused not only on avoiding harm to the planet, but also improving the planet</string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -468,9 +468,9 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bhP-5Z-zi3">
                                 <rect key="frame" x="126" y="430" width="281" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Seventh Generation makes plant-based products made of ethically and sustainably sourced ingredients. Their packaging also uses recycled materials and is designed to be recycled. They also aim to become a zero-waste company by 2025 and support the Sierra Club’s Ready for 100 campaign, an environmental initiative to get cities across the country to commit to 100% clean, renewable, and just energy usage by 2050. </string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -478,15 +478,15 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <rect key="frame" x="13" y="108" width="328" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18.5"/>
-                                <color key="textColor" red="1" green="0.97632374639999997" blue="0.85513286629999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.44950449469999998" green="0.67450916770000002" blue="0.67030233139999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5tC-wA-hhP">
                                 <rect key="frame" x="128" y="636" width="281" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">A Good Company is an ethical alternative to Amazon that takes the planet’s health into consideration with each product. It encourages customers to be conscious consumers and to end mindless consumption. Their products include: the world’s first climate positive notebook made with stone paper, a luxury pen made of melted down illegal firearms, and eco friendly phone cases, all in climate positive packaging.</string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -497,15 +497,15 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JXv-z4-XVL">
                                 <rect key="frame" x="128" y="253" width="281" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.7725490196" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Patagnoia has given over $89 million to grassroots and environmental groups. They also sued the president in 2017 to preserve national monuments. Much of their raw materials are recycled or grown organically to reduce their environmental footprint. They aim to be carbon neutral by 2025. </string>
-                                <color key="textColor" red="0.20000000000000001" green="0.23921568630000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sjU-r2-buw"/>
-                        <color key="backgroundColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85490196078431369" green="0.92941176470588238" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="🌿Eco-Friendly Companies 🌿" id="yPa-Vz-uKL">
                         <barButtonItem key="rightBarButtonItem" image="newspaper" catalog="system" id="6AN-9B-1U6">
@@ -526,14 +526,60 @@ Don’t buy things you don’t need as consuming less means there will be less w
                     <view key="view" contentMode="scaleToFill" id="5ks-6e-UwZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-22 at 6.39.11 PM" translatesAutoresizingMaskIntoConstraints="NO" id="olD-4o-t7R">
+                                <rect key="frame" x="101" y="95" width="244" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trashmen " translatesAutoresizingMaskIntoConstraints="NO" id="ilc-du-NR4">
+                                <rect key="frame" x="-13" y="333" width="288" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cans" translatesAutoresizingMaskIntoConstraints="NO" id="3H7-nZ-zHh">
+                                <rect key="frame" x="128" y="588" width="253" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JnA-Aj-2f5">
+                                <rect key="frame" x="45" y="738" width="325" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Do You Recycle Challenge? Launches in Atlanta">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonArticle3:" destination="aZY-58-17Q" eventType="touchUpInside" id="WP2-KI-80s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ql-oi-plr">
+                                <rect key="frame" x="52" y="246" width="342" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Maine Will Make Companies Pay For Recycling.">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonArticle1:" destination="aZY-58-17Q" eventType="touchUpInside" id="Xrl-zq-HEr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8S-GI-MGK">
+                                <rect key="frame" x="2" y="480" width="412" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Opinion: Big Companies Should be the focus of Reycling Issues ">
+                                    <color key="titleColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonArticle2:" destination="aZY-58-17Q" eventType="touchUpInside" id="gPB-AA-TAJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="j0R-MP-cn2"/>
-                        <color key="backgroundColor" red="0.64313725489999995" green="0.67450980390000004" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85538417099999997" green="0.92949753999999996" blue="0.89242279530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Articles" id="q5A-jd-vr5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="98f-Z3-VbZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2849" y="118"/>
+            <point key="canvasLocation" x="2847.826086956522" y="117.85714285714285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wSO-h4-S8h">
@@ -555,8 +601,8 @@ Don’t buy things you don’t need as consuming less means there will be less w
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Fp7-o7-Ghr"/>
-        <segue reference="mOU-X2-U0w"/>
+        <segue reference="cDI-IZ-Ont"/>
+        <segue reference="Wvh-9t-ofl"/>
         <segue reference="0e8-g6-w4r"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -574,15 +620,18 @@ Don’t buy things you don’t need as consuming less means there will be less w
         <image name="Image-7" width="150" height="279"/>
         <image name="Image-8" width="460" height="460"/>
         <image name="Image-9" width="1600" height="1571"/>
-        <image name="Recycling" width="506" height="256"/>
+        <image name="Screen Shot 2021-07-22 at 6.39.11 PM" width="1200" height="664"/>
         <image name="Tire" width="313" height="346"/>
         <image name="Unknown-3" width="214" height="148"/>
         <image name="agoodcopmany" width="225" height="225"/>
         <image name="building.2" catalog="system" width="128" height="106"/>
+        <image name="cans" width="1456" height="820"/>
         <image name="hq720" width="720" height="404"/>
         <image name="newspaper" catalog="system" width="128" height="108"/>
         <image name="png-clipart-head-shoulders-shampoo-dandruff-lotion-hair-shampoo-miscellaneous-cosmetics-removebg-preview" width="471" height="529"/>
+        <image name="reducereuserecycle-1200x627-1" width="800" height="418"/>
         <image name="trash" catalog="system" width="121" height="128"/>
         <image name="trash.slash" catalog="system" width="115" height="128"/>
+        <image name="trashmen " width="1182" height="860"/>
     </resources>
 </document>
