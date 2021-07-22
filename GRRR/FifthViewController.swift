@@ -15,7 +15,27 @@ class FifthViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func buttonArticle1(_ sender: UIButton) {
+        
+        UIApplication.shared.open(URL(string: "https://www.nytimes.com/2021/07/21/climate/maine-recycling-law-EPR.html")! as URL, options: [:], completionHandler: nil)
+        
+        
+    }
+    
+    
+    @IBAction func buttonArticle2(_ sender: UIButton) {
+        
+        UIApplication.shared.open(URL(string: "https://www.winsfordguardian.co.uk/news/19446326.opinion-big-companies-focus-recycling-issue/")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    
+    
+    @IBAction func buttonArticle3(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://www.recyclingtoday.com/article/do-you-recycle-challenge-starts-in-atlanta/")! as URL, options: [:], completionHandler: nil)
+        
+    }
+    
     /*
     // MARK: - Navigation
 
