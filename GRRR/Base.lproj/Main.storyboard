@@ -47,7 +47,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CGN-24-j2Z">
                                 <rect key="frame" x="13" y="709" width="386" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The failure on behalf of Earth's citizens to effectively recycle and manage our waste has lead to pollution and climate change. The four of us at GRRR (Girls Reduce Reuse Recycle) want to increase how much the world recycles by providing a directory of recyclable items and encouraging recycling and waste reduction.</string>
+                                <string key="text">The failure on behalf of Earth's citizens to effectively recycle and manage our waste has lead to pollution and climate change. The four of us at RECYGOAL want to increase how much the world recycles by providing a directory of recyclable items and encouraging recycling and waste reduction.</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16.799999237060547"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -346,12 +346,12 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DiK-Gd-pYJ">
                                 <rect key="frame" x="14" y="159" width="386" height="254"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">They usually end up not recycled because of how difficult they are to sort and could jam the machines while sorting.                                                                                                       Instead: Use reusable bags or paper bags
+                                <string key="text">They usually end up not recycled because of how difficult they are to sort and could jam the machines while sorting.                                                                                                       Instead: Use reusable bags or paper bags
       
                                                                                                                                  They are extremely harmful to the environment and 80% of the bottles actually end up in landfills at the end.                                                                                                  Instead: Use metal, glass, or any other reusable bottles
 
                                                                                             They end up not being recycled due to how small they are, which causes them to eventually end up in landfills.                                                                                                                                  Instead: Use metal, bamboo, and glass straws
-</mutableString>
+</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
