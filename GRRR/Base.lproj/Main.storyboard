@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--GRRR-->
+        <!--🪴RECYGOAL🪴-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GRRR" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,28 +16,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why Recycle?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuF-MW-hO7">
-                                <rect key="frame" x="57" y="308" width="301" height="99"/>
+                                <rect key="frame" x="57" y="336" width="301" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
                                 <color key="textColor" red="0.44705882352941173" green="0.67450980392156867" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mission Statement" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ize-2l-kmT">
-                                <rect key="frame" x="57" y="566" width="301" height="99"/>
+                                <rect key="frame" x="57" y="577" width="301" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
                                 <color key="textColor" red="0.4488541881" green="0.67450980390000004" blue="0.67254700150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Out of the 75% of recyclable materials in the U.S., only 32% are recycled." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWb-Uk-j62">
-                                <rect key="frame" x="3" y="636" width="409" height="46"/>
+                                <rect key="frame" x="3" y="647" width="409" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="18"/>
                                 <color key="textColor" red="0.92819648980000002" green="0.7138794356224808" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.67138850689999996" green="0.69404453040000003" blue="0.80080980059999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7l3-z7-iAw">
-                                <rect key="frame" x="14" y="387" width="386" height="193"/>
+                                <rect key="frame" x="13" y="398" width="386" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Recyling allows for us to take care of our planet in several ways. Not only can it help the environment by supporting public health, saving resources, and preventing pollution, but it can also support our economy by creating jobs. By recycling, we are easily able to avoid landfills and save money. In doing so, we prevent destruction and pollution-consequences of extracting Earth's virgin materials, such as precious metals and trees.</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -45,7 +45,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CGN-24-j2Z">
-                                <rect key="frame" x="14" y="698" width="386" height="153"/>
+                                <rect key="frame" x="13" y="709" width="386" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">The failure on behalf of Earth's citizens to effectively recycle and manage our waste has lead to pollution and climate change. The four of us at GRRR (Girls Reduce Reuse Recycle) want to increase how much the world recycles by providing a directory of recyclable items and encouraging recycling and waste reduction.</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -53,14 +53,28 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reducereuserecycle-1200x627-1" translatesAutoresizingMaskIntoConstraints="NO" id="ghW-ll-hJ0">
-                                <rect key="frame" x="-13" y="65" width="440" height="301"/>
+                                <rect key="frame" x="-13" y="65" width="440" height="278"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="G R R R" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKn-RK-DZm">
+                                <rect key="frame" x="163" y="313" width="89" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                <color key="textColor" red="0.2832959727031627" green="0.41980632629038828" blue="0.19597713898577576" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Girls Reduce Reuse Recycle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc2-fV-xQm">
+                                <rect key="frame" x="121" y="342" width="172" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSymbols" family="Apple Symbols" pointSize="18"/>
+                                <color key="textColor" red="0.15619741564251768" green="0.29071954284051449" blue="0.0066772697620600353" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.85538417099999997" green="0.92949753999999996" blue="0.89242279530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="GRRR" id="tGd-h7-FTy">
+                    <navigationItem key="navigationItem" title="🪴RECYGOAL🪴" id="tGd-h7-FTy">
                         <rightBarButtonItems>
                             <barButtonItem image="newspaper" catalog="system" id="TME-YR-aPC">
                                 <connections>
@@ -77,7 +91,7 @@
                                     <segue destination="9WY-vZ-pQC" kind="show" id="0e8-g6-w4r"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem image="trash" catalog="system" id="VET-up-2U2">
+                            <barButtonItem image="repeat" catalog="system" id="VET-up-2U2">
                                 <connections>
                                     <segue destination="ygh-Ij-BQB" kind="show" id="Iu7-ME-jdq"/>
                                 </connections>
@@ -90,7 +104,7 @@
             </objects>
             <point key="canvasLocation" x="176.81159420289856" y="117.85714285714285"/>
         </scene>
-        <!--Recycling Guide-->
+        <!--♻️Recycling Guide♻️-->
         <scene sceneID="6bf-mS-wE7">
             <objects>
                 <viewController id="ygh-Ij-BQB" customClass="SecondViewController" customModule="GRRR" customModuleProvider="target" sceneMemberID="viewController">
@@ -281,7 +295,7 @@
                         <viewLayoutGuide key="safeArea" id="bmx-Xo-QYS"/>
                         <color key="backgroundColor" red="0.85538417099999997" green="0.92949753999999996" blue="0.89242279530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Recycling Guide" id="lpz-B3-gDv">
+                    <navigationItem key="navigationItem" title="♻️Recycling Guide♻️" id="lpz-B3-gDv">
                         <rightBarButtonItems>
                             <barButtonItem image="newspaper" catalog="system" id="Xvg-Ey-n8G">
                                 <connections>
@@ -305,7 +319,7 @@
             </objects>
             <point key="canvasLocation" x="844.92753623188412" y="117.85714285714285"/>
         </scene>
-        <!-- 🌱 Reducing Waste🌱-->
+        <!-- 🌱Reducing Waste🌱-->
         <scene sceneID="Th5-54-dhT">
             <objects>
                 <viewController id="9WY-vZ-pQC" customClass="ThirdViewController" customModule="GRRR" customModuleProvider="target" sceneMemberID="viewController">
@@ -403,7 +417,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                         <viewLayoutGuide key="safeArea" id="bUG-P1-BHq"/>
                         <color key="backgroundColor" red="0.85490196078431369" green="0.92941176470588238" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title=" 🌱 Reducing Waste🌱" id="BcC-Xe-SXc">
+                    <navigationItem key="navigationItem" title=" 🌱Reducing Waste🌱" id="BcC-Xe-SXc">
                         <rightBarButtonItems>
                             <barButtonItem image="newspaper" catalog="system" id="IRl-LB-FZQ">
                                 <connections>
@@ -456,12 +470,8 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <rect key="frame" x="5" y="430" width="113" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agoodcopmany" translatesAutoresizingMaskIntoConstraints="NO" id="lzt-Fl-c8r">
-                                <rect key="frame" x="5" y="630" width="117" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyz-Mm-TV2">
-                                <rect key="frame" x="7" y="253" width="113" height="82"/>
+                                <rect key="frame" x="7" y="239" width="113" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="patgoniaButton:" destination="yPn-zo-6Um" eventType="touchUpInside" id="Gfn-mk-ox4"/>
@@ -474,15 +484,8 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                     <action selector="seventhButton:" destination="yPn-zo-6Um" eventType="touchUpInside" id="lks-cG-jhp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzX-Ow-O8c">
-                                <rect key="frame" x="9" y="636" width="113" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="goodcompButton:" destination="yPn-zo-6Um" eventType="touchUpInside" id="waS-cO-Jtw"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bhP-5Z-zi3">
-                                <rect key="frame" x="126" y="430" width="281" height="175"/>
+                                <rect key="frame" x="133" y="445" width="281" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Seventh Generation makes plant-based products made of ethically and sustainably sourced ingredients. Their packaging also uses recycled materials and is designed to be recycled. They also aim to become a zero-waste company by 2025 and support the Sierra Club’s Ready for 100 campaign, an environmental initiative to get cities across the country to commit to 100% clean, renewable, and just energy usage by 2050. </string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -497,7 +500,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5tC-wA-hhP">
-                                <rect key="frame" x="128" y="636" width="281" height="197"/>
+                                <rect key="frame" x="134" y="658" width="281" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">A Good Company is an ethical alternative to Amazon that takes the planet’s health into consideration with each product. It encourages customers to be conscious consumers and to end mindless consumption. Their products include: the world’s first climate positive notebook made with stone paper, a luxury pen made of melted down illegal firearms, and eco friendly phone cases, all in climate positive packaging.</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -505,17 +508,49 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JXv-z4-XVL">
-                                <rect key="frame" x="128" y="253" width="281" height="153"/>
+                                <rect key="frame" x="128" y="255" width="281" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Patagnoia has given over $89 million to grassroots and environmental groups. They also sued the president in 2017 to preserve national monuments. Much of their raw materials are recycled or grown organically to reduce their environmental footprint. They aim to be carbon neutral by 2025. </string>
+                                <string key="text">Patagonia has given over $89 million to grassroots and environmental groups. They also sued the president in 2017 to preserve national monuments. Much of their raw materials are recycled or grown organically to reduce their environmental footprint. They aim to be carbon neutral by 2025. </string>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921568627452" blue="0.32549019607843138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="15.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-3" translatesAutoresizingMaskIntoConstraints="NO" id="Zqt-y5-lJH">
-                                <rect key="frame" x="-5" y="253" width="136" height="82"/>
+                                <rect key="frame" x="-5" y="239" width="136" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Patagonia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXc-OR-F43">
+                                <rect key="frame" x="134" y="234" width="85" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-HeavyOblique" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.92819648980000002" green="0.7138794356" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seventh Generation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncQ-uF-9tE">
+                                <rect key="frame" x="134" y="425" width="169" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-HeavyOblique" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.92819648980000002" green="0.7138794356" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A Good Company" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGW-wb-bI5">
+                                <rect key="frame" x="138" y="636" width="151" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-HeavyOblique" family="Avenir" pointSize="18"/>
+                                <color key="textColor" red="0.92819648980000002" green="0.7138794356" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="agoodcopmany" translatesAutoresizingMaskIntoConstraints="NO" id="lzt-Fl-c8r">
+                                <rect key="frame" x="5" y="636" width="117" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzX-Ow-O8c">
+                                <rect key="frame" x="9" y="642" width="113" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="goodcompButton:" destination="yPn-zo-6Um" eventType="touchUpInside" id="waS-cO-Jtw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sjU-r2-buw"/>
                         <color key="backgroundColor" red="0.85490196078431369" green="0.92941176470588238" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -532,7 +567,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
             </objects>
             <point key="canvasLocation" x="2186.9565217391305" y="117.85714285714285"/>
         </scene>
-        <!--Articles-->
+        <!--🍃Articles All About Recycling🍃-->
         <scene sceneID="aBH-ge-N6F">
             <objects>
                 <viewController id="aZY-58-17Q" customClass="FifthViewController" customModule="GRRR" customModuleProvider="target" sceneMemberID="viewController">
@@ -552,7 +587,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <rect key="frame" x="45" y="821" width="325" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Do You Recycle Challenge? Launches in Atlanta">
-                                    <color key="titleColor" red="0.45414048429999998" green="0.67449194189999995" blue="0.67059206959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.29692965269999999" green="0.53145138359999999" blue="0.52647549689999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonArticle3:" destination="aZY-58-17Q" eventType="touchUpInside" id="WP2-KI-80s"/>
@@ -563,7 +598,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Maine Will Make Companies Pay For Recycling.">
-                                    <color key="titleColor" red="0.45414048429999998" green="0.67449194189999995" blue="0.67059206959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.29692965274561067" green="0.53145138362441402" blue="0.52647549689500772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonArticle1:" destination="aZY-58-17Q" eventType="touchUpInside" id="Xrl-zq-HEr"/>
@@ -574,7 +609,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Opinion: Big Companies Should be the focus of Reycling Issues ">
-                                    <color key="titleColor" red="0.45414048429999998" green="0.67449194189999995" blue="0.67059206959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.29692965269999999" green="0.53145138359999999" blue="0.52647549689999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonArticle2:" destination="aZY-58-17Q" eventType="touchUpInside" id="gPB-AA-TAJ"/>
@@ -602,7 +637,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Iwi-rd-5XD">
                                 <rect key="frame" x="85" y="393" width="22" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.50844257640000001" green="0.67514921439999998" blue="0.45904123479999998" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -618,7 +653,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="okk-2o-J3U">
                                 <rect key="frame" x="309" y="393" width="22" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.50844257640000001" green="0.67514921439999998" blue="0.45904123479999998" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -626,7 +661,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IaK-lv-Bnb">
                                 <rect key="frame" x="307" y="640" width="24" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.29727628969999997" green="0.39893692670000003" blue="0.2715391767" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -642,7 +677,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="P4a-nO-olk">
                                 <rect key="frame" x="85" y="367" width="246" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.50844257638682944" green="0.67514921441636677" blue="0.45904123483088427" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -650,7 +685,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="avj-iZ-FTQ">
                                 <rect key="frame" x="85" y="614" width="246" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.29727628974400455" green="0.39893692672836178" blue="0.27153917673215078" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -666,7 +701,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cKq-G5-8f9">
                                 <rect key="frame" x="85" y="540" width="246" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.50844257640000001" green="0.67514921439999998" blue="0.45904123479999998" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -674,7 +709,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Ap-2Z-UIj">
                                 <rect key="frame" x="85" y="782" width="246" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.29727628969999997" green="0.39893692670000003" blue="0.2715391767" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -682,7 +717,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WmT-40-SYs">
                                 <rect key="frame" x="85" y="640" width="24" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.71372549019999998" green="0.84340572359999999" blue="0.63637873389999999" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.29727628969999997" green="0.39893692670000003" blue="0.2715391767" alpha="0.6484247675" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.49803921569999998" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -691,7 +726,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
                         <viewLayoutGuide key="safeArea" id="j0R-MP-cn2"/>
                         <color key="backgroundColor" red="0.85538417099999997" green="0.92949753999999996" blue="0.89242279530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Articles" id="q5A-jd-vr5"/>
+                    <navigationItem key="navigationItem" title="🍃Articles All About Recycling🍃" id="q5A-jd-vr5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="98f-Z3-VbZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -746,7 +781,7 @@ Don’t buy things you don’t need as consuming less means there will be less w
         <image name="newspaper" catalog="system" width="128" height="108"/>
         <image name="png-clipart-head-shoulders-shampoo-dandruff-lotion-hair-shampoo-miscellaneous-cosmetics-removebg-preview" width="471" height="529"/>
         <image name="reducereuserecycle-1200x627-1" width="691" height="361"/>
-        <image name="trash" catalog="system" width="121" height="128"/>
+        <image name="repeat" catalog="system" width="128" height="99"/>
         <image name="trash.slash" catalog="system" width="115" height="128"/>
         <image name="trashmen " width="1182" height="860"/>
     </resources>
